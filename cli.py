@@ -46,9 +46,9 @@ if  len(params) > 1:
 				print("Sistema de Arquivos", diskList[i].fstype)
 	elif params[1] == "network" or params[1] == "-n":
 		if(str(params).find("bytes")) >0:
-			bytesNetwork = network.info()
-			print("Bytes enviados: ", bytesNetwork.bytes_sent)
-			print("Bytes recebidos: ", bytesNetwork.bytes_recev)		
+			bytesN = network.info()
+			print("Bytes enviados: ", bytesN.bytes_sent/(1024 * 1024 * 1024))
+			print("Bytes recebidos: ", bytesN.bytes_recv/(1024 * 1024 * 1024))		
 	elif params[1] == "arch":
 		print("Arquitetura do computador: ", computer.arch())
 	elif str(params).find("shutdown") > 0:
