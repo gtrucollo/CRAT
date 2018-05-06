@@ -8,7 +8,6 @@ Python application for Servers Remote Access and Control[not finished]
 ## Authors
 * **[Gabriel Trucollo](https://github.com/gabrieltrucollo)** - *Initial work* 
 ## How to use
-* python cli.py {
 * os or system = Details this Operational System.
 * name = Computer name.
 * distro = Linux users display the distribution, windows users display the running version.
@@ -23,4 +22,4 @@ Python application for Servers Remote Access and Control[not finished]
 * network or -n bytes = Display network bytes.
 * shutdown = Operational system shutdown.
 * reboot = Operational system reboot.
-* arch = Display processor arch. }
+* arch = Display processor arch.
