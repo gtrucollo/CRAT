@@ -1,5 +1,7 @@
-#CRAT
+# CRAT
 Python application for Servers Remote Access and Control[not finished]
+## Pre requirement
+* [Platform] - Python lib. install with pip install platform
 ## Run With
 * [Python](https://www.python.org/) -Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.
 ## Authors

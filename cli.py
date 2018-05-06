@@ -6,7 +6,6 @@ params = sys.argv
 if  len(params) > 1:
 	if params[1] == "os" or params[1] == "system":
 		print("Sistema Operacional: ",computer.os() , computer.osVersion())
-
 	elif params[1] == "name":
 		print("Nome de rede:", computer.name())
 	elif params[1] == "distro":
@@ -45,7 +44,7 @@ if  len(params) > 1:
 			while i < len(diskList):
 				print("Ponto de Montagem", diskList[i].mountpoint)
 				print("Sistema de Arquivos", diskList[i].fstype)
-	elif params[1] == "network" or params[1] == "-m":
+	elif params[1] == "network" or params[1] == "-n":
 		if(str(params).find("bytes")) >0:
 			bytesNetwork = network.info()
 			print("Bytes enviados: ", bytesNetwork.bytes_sent)
@@ -57,9 +56,7 @@ if  len(params) > 1:
 		tools.shutdown()
 	elif str(params).find("reboot") > 0:
 		print("Sistema será reiniciado em seguida")
-		tools.reboot()
-
-	
+		tools.reboot()	
 	else:
 		print("Parametro desconhecido")	
 else:
