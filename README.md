@@ -8,6 +8,8 @@ Python application for Servers Remote Access and Control[not finished]
 ## Authors
 * **[Gabriel Trucollo](https://github.com/gabrieltrucollo)** - *Initial work* 
 ## How to use
+* python cly.py - command
+## Commands
 * os or system = Details this Operational System.
 * name = Computer name.
 * distro = Linux users display the distribution, windows users display the running version.
